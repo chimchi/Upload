@@ -1,0 +1,55 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 14444,
+        "access-token": "TOKEN",
+        "worker-id": "one",
+        "ipv6": false,
+        "restricted": false
+    },
+    "av": 1,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 0 ,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 75,
+    "pools": [
+        {
+                        "url": "xmr-asia1.nanopool.org:14444",
+                        "user": "45v6WtQVWkaN6uVun75WAoM4k8AQHVwa9VKiJNKSBRd4KDMh3AQdsuzCJskzNYiCjRGY4vG5BHQCqP7sBf6vLfxxR37pWim.one/jackandjillatoffice@gmail.com",
+                        "pass": "x",
+                        "keepalive": "true",
+                        "nicehash": "false",
+                        "variant": "-1",
+	}
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "threads": [
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 0
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 1
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 2
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 3
+        }
+    ],
+    "user-agent": null,
+    "syslog": false,
+    "watch": false
+}
